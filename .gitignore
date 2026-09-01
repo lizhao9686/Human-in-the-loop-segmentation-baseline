@@ -1,0 +1,32 @@
+# Local Python environments
+.venv/
+.venv-*/
+venv/
+env/
+work/.venv-audit/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Audit-only synthetic fixtures and downloaded source archive
+work/GazeMedSeg-official/smoke_data/
+work/GazeMedSeg-main.zip
+
+# Local experiment artifacts
+*.pth
+*.pt
+*.ckpt
+*.log
+wandb/
+runs/
+experiments/
+pred_ite*/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
